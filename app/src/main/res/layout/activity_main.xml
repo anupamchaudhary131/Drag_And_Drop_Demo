@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome To learnVern"
+        android:textSize="@dimen/textsize"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/commonMargin"
+        android:textStyle="bold"
+        android:textColor="@color/saffron" />
+
+    <ImageView
+        android:id="@+id/ImageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/welcomeText"
+        android:layout_marginTop="@dimen/textsize"
+        android:src="@drawable/learnvern" />
+
+</RelativeLayout>
